@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Satisfy&family=Yellowtail&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    margin: 0px 10px;
+    font-size: 8px;
+}
+
+#logo img {
+    height: 32px;
+    filter: invert(1);
+}
+
+#navbar ul {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar {
+    background-color: rgba(0, 0, 0, 0.87);
+    padding: 15px 4px;
+    font-family: 'Pacifico', cursive;
+}
+
+#navbar ul li {
+    list-style: none;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    padding: 6px 30px;
+    color: #d990eb;
+    font-size: 18px;
+}
+
+#navbar ul li a:hover {
+    color: #90ceeb;
+}
+
+#introSection {
+    padding-bottom: 42px;
+    color: #bb8282;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Satisfy', cursive;
+    font-size: 40px;
+    background: url("/static/dance.jpg") no-repeat center center/cover;
+    height: 300px;
+    background-color: aqua;
+}
+
+#introSection div.small {
+    font-size: 28px;
+}
+
+#sponserSection {
+    height: 300px;
+    background: #0f0f0f;
+    color: #fff;
+}
+
+#sponserSection h2 {
+    font-size: 30px;
+    font-family: 'Yellowtail', cursive;
+    text-align: center;
+    padding-top: 12px;
+}
+
+#sponsers {
+    height: 189px;
+    max-width: 1000px;
+    margin: 18px auto;
+}
+
+.spImage {
+    height: 80%;
+    margin: 20px;
+}
+
+#sponsers img{
+    mix-blend-mode:multiply;
+}
+
+#missionSection {
+    width: 100%;
+    margin: auto;
+    height: 300px;
+    /* background-color: rgb(187, 85, 235); */
+    background: #0f0f0f;
+    color: #fff;
+}
+
+#missionSection h2 {
+    font-size: 30px;
+    font-family: 'Yellowtail', cursive;
+    text-align: center;
+    padding-top: 12px;
+}
+
+.card {
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 29%;
+    margin: 18px 31px;
+    height: 185px;
+    /* background-color: #d990eb; */
+}
+
+.card h3 {
+    text-align: center;
+    margin: 8px;
+    margin-top: 10px;
+}
+
+.card-box {
+    display: flex;
+    align-items: center;
+}
+
+.card-img {
+    height: 133px;
+    padding: 0px 14px;
+}
+
+.card-img img {
+    height: inherit;
+}
+
+.card-content {
+    padding: 0px 5px;
+}
+
+.card-content p {
+    font-size: 18px;
+}
+
+#footer {
+    height: 30px;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 19px;
+    font-family: 'Pacifico', cursive;
+}

@@ -1,0 +1,41 @@
+extends base.pug
+
+block scripts 
+    script(src="/static/index.js") 
+block style 
+    style 
+            include ../static/style.css 
+block content 
+    section#introSection
+        div  Welcome to Abhis Dance 
+        div.small Dance is art pooja hai pooja 
+    section#missionSection
+        h2 Our Mission 
+        div.card
+            h3 Dance Perfection
+            div.card-box 
+                div.card-img 
+                    img(src="/static/IMG/1.jpeg")
+                div.card-content 
+                    p Hip-Hop of the year
+        div.card
+            h3 Dance your way  
+            div.card-box 
+                div.card-img 
+                    img(src="/static/IMG/2.jpeg")
+                div.card-content 
+                    p personalisation of the year
+        div.card
+            h3 Dance Expertise 
+            div.card-box 
+                div.card-img 
+                    img(src="/static/IMG/3.jpeg")
+                div.card-content 
+                    p dance of the year
+    section#sponserSection
+        h2 Our Sponsers 
+        div#sponsers
+            img(src="/static/IMG/apple.png", alt="sponser image", class="spImage")
+            img(src="/static/IMG/microsoft.png", alt="sponser image", class="spImage")
+            img(src="/static/IMG/google.png", alt="sponser image", class="spImage")
+            img(src="/static/IMG/mi.png", alt="sponser image", class="spImage")

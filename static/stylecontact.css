@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Satisfy&family=Yellowtail&display=swap');
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body{
+    background: black;
+    color: white;
+}
+
+h2{
+    text-align: center;
+    margin: 12px 0px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    min-height: 89vh;
+    margin-top: 10px;
+}
+
+.container h1{
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+}
+
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.myInput{
+    padding: 8px;
+    margin: 4px;
+    border: 1px solid #dadce0;
+    color: #3c4043;
+    border-radius: 8px;
+    outline: none;
+    width: 20%;
+}
+
+.btn{
+    padding: 1px;
+    background-color: #1a73e8;
+    color: #fff;
+    text-align: center;
+    padding: 10px 22px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: 'Pacifico', cursive;
+    margin-top: 6px;
+}
